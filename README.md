@@ -1,8 +1,8 @@
-# sales_forecast
+# Forecast sales for a gaming retailer
 
 ### Problem:
 
-* Given 34 months of sales history (Jan 2013 – Oct 2015) of a Russian toy retailer by items and by shops, predict sales for Nov 2015
+* Given 34 months of sales history (Jan 2013 – Oct 2015) of a Russian gaming retailer by items and by shops, predict sales for Nov 2015
  
 ### Clients:
 * **Leadership of the toy company**: need a statistic reference on company sales potential based on historical trend in order to predict opportunities/risks for business to hit company sales target.Based on the study, the company will priorities marketing/investment resources to maximize opportunities/mitigate risks.
