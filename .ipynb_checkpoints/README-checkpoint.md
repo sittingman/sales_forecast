@@ -3,8 +3,8 @@
 ### Problem:
 
 * Given 34 months of sales history (Jan 2013 – Oct 2015) of a Russian gaming retailer by items and by shops, predict sales for Nov 2015
-* [Step on obtaining data](https://github.com/sittingman/sales_forecast/blob/master/obtain_data.ipynb). First time users to Kaggle will need to set up API ([see document])(https://www.kaggle.com/docs/api)
- 
+* [Step on obtaining data](https://github.com/sittingman/sales_forecast/blob/master/obtain_data.ipynb). First time users to Kaggle will need to set up API, refer to [document](https://www.kaggle.com/docs/api)
+
 ### Clients:
 * **Leadership of the toy company**: need a statistic reference on company sales potential based on historical trend in order to predict opportunities/risks for business to hit company sales target.Based on the study, the company will priorities marketing/investment resources to maximize opportunities/mitigate risks.
 * **Toy product developers**: Study may reflect meaningful category trend in which developer can prioritize resources on innovation in those categories
