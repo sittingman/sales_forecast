@@ -28,7 +28,12 @@
 
 
 * Statistical Test: evaluate the statistical significance of the features identified in the exploratory stage on predicting target (i.e. sales), narrow down features that matters most to the predictions
+    * [Time Series Test](https://github.com/sittingman/sales_forecast/blob/master/ts_stattest.ipynb): identified strong lag of 7 days through auto-correlation graphs, data also passed Dickey-Fuller test that data do not follow random walk patter under 95% confidence level.
+    
+
 * Machine Learning: measure accuracy as well as root mean squared errors across 3-4 models to pick the winning models
+
+
 * Draw recommendations/next steps
 
 ### Key Findings
