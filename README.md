@@ -24,7 +24,7 @@
     * Top 19 categories (out of 84) contribute to ~90% of total sales
     * Store volumes varies, some stores did less than $1M per month, some stores did more than $10M
     * Day of week appear to influence daily sales, major holiday also play a role in sales peaks
-    * Preliminary conclusion: seasonal pattern suggest applying Time Series models
+    * Preliminary conclusion: seasonal pattern suggest applying Time Series models. Influential attributes such as product categories/shop imply the use of classification/regression models
 
 
 * Statistical Test: evaluate the statistical significance of the features identified in the exploratory stage on predicting target (i.e. sales), narrow down features that matters most to the predictions
