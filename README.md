@@ -2,7 +2,7 @@
 
 ### Problem:
 
-* Given 34 months of sales history (Jan 2013 – Oct 2015) of a Russian gaming retailer by items and by shops, predict sales for Nov 2015
+* Given 34 months of sales history (Jan 2013 – Oct 2015) of a Russian gaming retailer by items and by shops, predict sales for Nov 2015 (period 35)
 * [Steps on obtaining data](https://github.com/sittingman/sales_forecast/blob/master/obtain_data.ipynb). First time users to Kaggle will need to set up API, refer to [document](https://www.kaggle.com/docs/api)
 
 ### Clients:
@@ -14,10 +14,21 @@
 ### Outline of Approach
 
 * [Data Cleansing/Wrangling](https://github.com/sittingman/sales_forecast/blob/master/clean_wrangling.ipynb): Understand the data structures, checking for missing values or invalid records
+    
+    * Do not observe missing data
+    * Identified outliers on item price, applied [Outlier](https://github.com/sittingman/sales_forecast/blob/master/outlier.ipynb) procedures
+
 * [Exploratory](https://github.com/sittingman/sales_forecast/blob/master/exploratory.ipynb): Finding historical sales patterns and identify potential correlation factors that could serve as good training features
+    
+    * Identified seasonal sales pattern for major product categories
+    * Top 19 categories (out of 84) contribute to ~90% of total sales
+    * Store volumes varies, some stores did less than $1M per month, some stores did more than $10M
+    * Day of week appear to influence daily sales, major holiday also play a role in sales peaks
+    * Preliminary conclusion: seasonal pattern suggest applying Time Series models
+
+
 * Statistical Test: evaluate the statistical significance of the features identified in the exploratory stage on predicting target (i.e. sales), narrow down features that matters most to the predictions
 * Machine Learning: measure accuracy as well as root mean squared errors across 3-4 models to pick the winning models
 * Draw recommendations/next steps
-
 
 ### Key Findings
