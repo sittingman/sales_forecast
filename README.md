@@ -42,7 +42,7 @@
     * [Regression/Classification](https://github.com/sittingman/sales_forecast/blob/master/model_cls.ipynb) Models tested include:
         * Xgboost, Random Forest, Rigde
         * Training results suggested that Xgboost has the highest accuracy, but the other model performance are within 1 rmse range
-        * Submit all three model for accuracy scoring
+        * [Submit](https://github.com/sittingman/sales_forecast/blob/master/data_submit.ipynb) all three model for accuracy scoring
 
 ### Summary of Findings
 
