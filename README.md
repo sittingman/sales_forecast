@@ -49,5 +49,8 @@
 
 |Model | Kaggle Score |
 |------| -------------|
-| Naive| 3.54         |
-| SARIMA| 12.50       |
+| Naive| 3.77         |
+| SARIMA| 12.40       |
+|Xgboost| 2.36|
+|Random Forest| |
+|Ridge| |
