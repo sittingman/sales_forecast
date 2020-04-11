@@ -2,3 +2,10 @@
 data/items.csv
 data/item_categories.csv
 *.csv
+.ipynb_checkpoints/ts_stattest-checkpoint.ipynb
+.ipynb_checkpoints/regtest-checkpoint.ipynb
+.ipynb_checkpoints/obtain_data-checkpoint.ipynb
+.ipynb_checkpoints/model_ts-checkpoint.ipynb
+.ipynb_checkpoints/model_cls-checkpoint.ipynb
+.ipynb_checkpoints/data_submit-checkpoint.ipynb
+.ipynb_checkpoints/clean_wrangling-checkpoint.ipynb
