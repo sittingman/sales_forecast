@@ -47,5 +47,6 @@
 
 ### Summary of Findings
 
-Model | Kaggle Score |
-Naive | 3.54 |
+|Model | Kaggle Score |
+|______| ____________ |
+| Naive| 3.54 |
