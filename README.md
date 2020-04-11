@@ -21,7 +21,7 @@
 * [Exploratory](https://github.com/sittingman/sales_forecast/blob/master/exploratory.ipynb): Finding historical sales patterns and identify potential correlation factors that could serve as good training features
     
     * Identified seasonal sales pattern for major product categories
-    * Top 19 categories (out of 84) contribute to ~90% of total sales
+    * Top 7 categories (out of 84) contribute to ~90% of total sales
     * Store volumes varies, some stores did less than $1M per month, some stores did more than $10M
     * Day of week appear to influence daily sales, major holiday also play a role in sales peaks
     * Preliminary conclusion: seasonal pattern suggests applying Time Series models. Influential attributes such as product categories/shop imply the use of classification/regression models
@@ -46,7 +46,7 @@
 
 ### Summary of Findings
 
-|Model | Kaggle Score |
+|Model | Kaggle Score (RMSE) |
 |------| -------------|
 |Naive| 3.77|
 |SARIMA| 12.40|
