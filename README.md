@@ -29,12 +29,23 @@
 
 * Statistical Test: evaluate the statistical significance of the features identified in the exploratory stage on predicting target (i.e. sales), narrow down features that matters most to the predictions
     * [Time Series Test](https://github.com/sittingman/sales_forecast/blob/master/ts_stattest.ipynb): identified strong lag of 7 days through auto-correlation graphs, data also passed Dickey-Fuller test that data do not follow random walk patter under 95% confidence level.
-    * [Regression Test]
+    * [Regression Test](https://github.com/sittingman/sales_forecast/blob/master/regtest.ipynb): confirmed that categorical features such as shop_id, item_category, and month would be strong features to use for regression/classification models. Same applies for item prices.
     
 
 * Machine Learning: measure accuracy as well as root mean squared errors across 3-4 models to pick the winning models
+    * Naïve model: Use Nov 2014 actual item count by shop to predict Nov 2015
+    * [Time Series](https://github.com/sittingman/sales_forecast/blob/master/model_ts.ipynb) Models tested include:
+        * ARMA, SARIMA, Holt Winter, Prophet, VARMAX
+        * Training results indicates that none of the time series would give reasonably good result. Predictions errors could be as high as 50% off from target
+        * Picked SARIMA to be submitted to Kaggle for accuracy scoring
 
+    * [Regression/Classification](https://github.com/sittingman/sales_forecast/blob/master/model_cls.ipynb) Models tested include:
+        * Xgboost, Random Forest, Rigde
+        * 
 
 * Draw recommendations/next steps
 
-### Key Findings
+### Summary of Findings
+
+Model | Kaggle Score |
+Naive | 3.54 |
