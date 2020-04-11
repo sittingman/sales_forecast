@@ -48,5 +48,6 @@
 ### Summary of Findings
 
 |Model | Kaggle Score |
-|______| ____________ |
-| Naive| 3.54 |
+|------| -------------|
+| Naive| 3.54         |
+| SARIMA| 12.50       |
