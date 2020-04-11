@@ -16,7 +16,7 @@
 * [Data Cleansing/Wrangling](https://github.com/sittingman/sales_forecast/blob/master/clean_wrangling.ipynb): Understand the data structures, checking for missing values or invalid records
     
     * Do not observe missing data
-    * Identified outliers on item price, applied [Outlier](https://github.com/sittingman/sales_forecast/blob/master/outlier.ipynb) procedures
+    * Identified outliers on item price, applied [outlier](https://github.com/sittingman/sales_forecast/blob/master/outlier.ipynb) procedures
 
 * [Exploratory](https://github.com/sittingman/sales_forecast/blob/master/exploratory.ipynb): Finding historical sales patterns and identify potential correlation factors that could serve as good training features
     
@@ -41,16 +41,23 @@
 
     * [Regression/Classification](https://github.com/sittingman/sales_forecast/blob/master/model_cls.ipynb) Models tested include:
         * Xgboost, Random Forest, Rigde
-        * 
-
-* Draw recommendations/next steps
+        * Training results suggested that Xgboost has the highest accuracy, but the other model performance are within 1 rmse range
+        * Submit all three model for accuracy scoring
 
 ### Summary of Findings
 
 |Model | Kaggle Score |
 |------| -------------|
-| Naive| 3.77         |
-| SARIMA| 12.40       |
-|Xgboost| 2.36|
-|Random Forest| |
-|Ridge| |
+|Naive| 3.77|
+|SARIMA| 12.40|
+|Xgboost| 2.16|
+|Random Forest|1.40 |
+|Ridge|3.42|
+
+### Recommendations/next steps
+
+Random Forest has the best accuracy among all. From the execution standpoint, xgboost appears to run faster and perhaps more scalable.
+
+Next steps will be to include more relevant features at the shop level trend and product category trend to improve model performance. Yet, the trade off of getting more features may lead to overfit and more costly to run. Clients will need to decide what rmse level they would feel comfortable on making business decision.
+
+It would be even more helpful if Clients can provide information on company internal marketing efforts (e.g. markdown/promotional activities) which help generate other useful features which are absent in current model.
