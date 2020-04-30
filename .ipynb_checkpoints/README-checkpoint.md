@@ -21,7 +21,7 @@
 * [Exploratory](https://github.com/sittingman/sales_forecast/blob/master/exploratory.ipynb): Finding historical sales patterns and identify potential correlation factors that could serve as good training features
     
     * Identified seasonal sales pattern for major product categories
-    * Top 19 categories (out of 84) contribute to ~90% of total sales
+    * Top 7 categories (out of 84) contribute to ~90% of total sales
     * Store volumes varies, some stores did less than $1M per month, some stores did more than $10M
     * Day of week appear to influence daily sales, major holiday also play a role in sales peaks
     * Preliminary conclusion: seasonal pattern suggests applying Time Series models. Influential attributes such as product categories/shop imply the use of classification/regression models
@@ -46,7 +46,7 @@
 
 ### Summary of Findings
 
-|Model | Kaggle Score |
+|Model | Kaggle Score (RMSE) |
 |------| -------------|
 |Naive| 3.77|
 |SARIMA| 12.40|
@@ -61,3 +61,5 @@ Random Forest has the best accuracy among all. From the execution standpoint, xg
 Next steps will be to include more relevant features at the shop level trend and product category trend to improve model performance. Yet, the trade off of getting more features may lead to overfit and more costly to run. Clients will need to decide what rmse level they would feel comfortable on making business decision.
 
 It would be even more helpful if Clients can provide information on company internal marketing efforts (e.g. markdown/promotional activities) which help generate other useful features which are absent in current model.
+
+### [Final Presentation](https://github.com/sittingman/sales_forecast/blob/master/sales_fcst_presentation.pdf)
