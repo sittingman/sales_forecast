@@ -2,7 +2,7 @@
 
 ### Problem:
 
-* Given 34 months of sales history (Jan 2013 – Oct 2015) of a Russian gaming retailer by items and by shops, predict sales for Nov 2015 (period 35)
+* Given 34 months of sales history (Jan 2013 – Oct 2015) of a gaming retailer by items and by shops, predict sales for Nov 2015 (period 35)
 * [Steps on obtaining data](https://github.com/sittingman/sales_forecast/blob/master/obtain_data.ipynb). First time users to Kaggle will need to set up API, refer to [document](https://www.kaggle.com/docs/api)
 
 ### Clients:
