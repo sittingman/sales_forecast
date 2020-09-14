@@ -56,7 +56,7 @@
 
 ### Recommendations/next steps
 
-Random Forest has the best accuracy among all. From the execution standpoint, xgboost runs the fastest.
+Random Forest has the best accuracy among all. From the execution standpoint, xgboost runs faster.
 
 Next steps will be to include more relevant features at the shop level trend and product category trend to improve model performance. Yet, the trade off of getting more features may lead to overfit and more costly to run. Clients will need to decide what rmse level they would feel comfortable on making business decision.
 
