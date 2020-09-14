@@ -46,13 +46,13 @@
 
 ### Summary of Findings
 
-|Model | Kaggle Score (RMSE) |
-|------| -------------|
-|Naive| 3.77|
-|SARIMA| 12.40|
-|Xgboost| 2.16|
-|Random Forest|1.40 |
-|Ridge|3.42|
+|Model | Kaggle Score (RMSE) | Time |
+|------| -------------| ---|
+|Naive| 3.77| 1s |
+|SARIMA| 12.40|1m 24s|
+|Xgboost| 2.16| 1m 42s |
+|Random Forest|1.40 | 25m 24s|
+|Ridge|3.42| 1s |
 
 ### Recommendations/next steps
 
@@ -60,7 +60,7 @@ Random Forest has the best accuracy among all. From the execution standpoint, xg
 
 Next steps will be to include more relevant features at the shop level trend and product category trend to improve model performance. Yet, the trade off of getting more features may lead to overfit and more costly to run. Clients will need to decide what rmse level they would feel comfortable on making business decision.
 
-It would be even more helpful if Clients can provide information on company internal marketing efforts (e.g. markdown/promotional activities) which help generate other useful features which are absent in current model.
+It would helpful if Clients can provide information on company internal marketing efforts (e.g. markdown/promotional activities) which help generate other useful features which are absent in current model.
 
 ### [Capstone Report](https://github.com/sittingman/sales_forecast/blob/master/capstone_report.pdf)
 ### [Final Presentation](https://github.com/sittingman/sales_forecast/blob/master/sales_fcst_presentation.pdf)
