@@ -52,7 +52,7 @@
 |SARIMA| 12.40|1m 24s|
 |Xgboost| 2.16| 1m 42s |
 |Random Forest|1.40 | 25m 24s|
-|Ridge|3.42| 1s |
+|Ridge|3.42| 3s |
 
 ### Recommendations/next steps
 
